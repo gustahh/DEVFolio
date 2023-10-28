@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sobre Gustavo Graciano/Devfolio</title>
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+  <link href="../css/mobile.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body id="id_pagina">
+  <script src="../script.js"></script>
+  <div class="menu_lateral">
+    <span class="material-symbols-outlined" id="close" onclick="fechar_menu()">close</span>
+    <ul class="ul-menu-lateral">
+      <li class="li-menu-lateral">
+        <a href="../index.html">Início</a>
+      </li>
+      <br>
+      <li class="li-menu-lateral">
+        <a href="../projetos.html">Projetos</a>
+      </li>
+      <br>
+      <li class="li-menu-lateral">
+        <a href="../sobre.html" id="active">Sobre nós</a>
+      </li>
+      <br><br>
+      <li class="li-menu-lateral">
+        <a href="../contato.html">Contato</a>
+      </li>
+    </ul>
+  </div>
+  <nav class="menu-h">
+    <h1><img src="../img/devfolio.png" id="logo"></img></h1>
+    <ul id="menu-itens">
+      <li>
+        <a href="../index.html">Início</a>
+      </li>
+      <li>
+        <a href="../projetos.html">Sobre mim</a>
+      </li>
+      <li>
+        <a href="../sobre.html" id="active">Sobre nós</a>
+      </li>
+      <li>
+        <a href="../contato.html">Contato</a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="menu-ham">
+    <span class="material-symbols-outlined" id="hamburguer" onclick="abrir_menu()">menu</span>
+    <h1><img src="../img/devfolio.png" id="logo-ham"></img></h1>
+  </nav>
+
+  <div class="perfil">
+    <div class="foto" id="dev2"><img src="../img/devfoto3.jpg" id="devfoto"></div>
+    <div class="dev-nome">
+      <p class="nome-dev">Henrique Alves</p>
+      <p class="proj-dev">Projetos</p>
+    </div>
+    <div class="competencias">
+      <img src="../img/JavaScript.png" class="logo">
+      <img src="../img/CSS.png" class="logo">
+      <img src="../img/html.png" class="logo">
+    </div>
+  </div>
+  <div class="redes">
+    <a href="">
+      <img src="../img/replit.png" class="logo">
+    </a>
+
+  </div>
+  <div class="sobre-box">
+    <div class="sobre">
+      <strong>
+        <p class="sobre-texto">Um pouco sobre mim</p>
+      </strong>
+      <div class="sobre-desc">
+        <p class="sobre-desc-texto">Meu nome é Henrique Alves da Silva, na adolescência comecei a me interessar por
+          computadores e queria saber mais sobre os trabalhos que poderiam ser feitos com eles. Por causa disso decidi
+          ser analista de sistemas. Então entrei para o curso de Análise e Desenvolvimento de Sistemas da UNISUAM no
+          qual aprendi muito sobre programação e criação de páginas HTML.</p>
+      </div>
+    </div>
+  </div>
+  <div class="projetoDestaque">
+    <span class="material-symbols-outlined" id="favIcon">
+      favorite
+    </span>
+    <p class="favTexto"><strong>Meu projeto favorito</strong></p>
+  </div>
+  <br>
+  <div class="proj-box-fav">
+    <div class="projetos-fav">
+      <div class="proj-foto" id="foto3"><img src="../img/parasito.png" id="foto3img"></div>
+      <a href="https://gustahh.github.io/parasito-beta-1.0.0/" target="_blank">
+        <p class="proj-texto">Projeto Parasito - Beta</p>
+      </a>
+      <span class="material-symbols-outlined" id="expandir">
+        expand_content
+      </span>
+      <div class="proj-desc">
+
+        <p class="proj-desc-texto">Projeto Parasito V1.0.0</p>
+      </div>
+    </div>
+  </div>
+  <button id="btn-topo" onclick="topFunction()">
+    <img src="../img/luva.png" id="luva">
+  </button>
+
+</body>
+<footer id="footer">
+  <p class="footer-texto"> © 2023 - DevFolio | All Rights Reserved </p>
+</footer>
+
+</html>

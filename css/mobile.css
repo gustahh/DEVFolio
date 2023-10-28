@@ -1,0 +1,380 @@
+@media only screen and (max-width: 600px) {
+
+  #id_pagina {
+    overflow: hidden;
+  }
+
+  #footer {
+    position: relative;
+    background-color: transparent;
+    transform: translateY(0);
+  }
+
+  .menu-h {
+    display: none;
+  }
+
+  .menu-ham {
+    display: block;
+    position: relative;
+    background-color: transparent;
+    max-width: 800px;
+    height: 25px;
+    list-style: none;
+    padding: 10px;
+    transition: background .4s;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+
+  #logo-ham {
+    display: block;
+    position: relative;
+    margin: -57px auto;
+    width: 200px;
+    height: 40px;
+  }
+
+  #hamburguer {
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  #close {
+    display: block;
+    position: absolute;
+    color: white;
+    margin: 10px 10px;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  #arte_ini {
+    display: none;
+  }
+
+  #arte_ini-mobile {
+    display: block;
+    position: relative;
+    float: right;
+    margin: -349px -200px;
+    width: 800px;
+    height: 490px;
+  }
+
+  .box {
+    display: none;
+  }
+
+  .box-mobile {
+    display: block;
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .box_sobre {
+    position: relative;
+    float: left;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    margin: 20px 40px;
+  }
+
+  .box_proj {
+    position: relative;
+    float: left;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    margin: 20px 40px;
+  }
+
+  #img_proj {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .box_contato {
+    position: relative;
+    float: left;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    margin: 20px 40px;
+  }
+
+  .bg {
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 596px;
+    background-color: #FFC65A;
+  }
+
+  #img_proj {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .menu_lateral {
+    display: none;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: black;
+    z-index: 1;
+  }
+
+  .ul-menu-lateral,
+  .li-menu-lateral {
+    position: absolute;
+    display: block !important;
+    z-index: 1;
+  }
+
+  .li-menu-lateral a {
+    position: absolute;
+    float: left;
+    margin: -5px 0px;
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+    color: white;
+    font-weight: 100;
+  }
+
+  li #active {
+    font-weight: 700;
+  }
+
+  li a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  /* projeto.html */
+  .dev-box {
+    position: relative;
+    width: 350px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  /* dev.html */
+
+  .perfil {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: transparent;
+  }
+
+  .proj-box {
+    position: relative;
+    width: 350px;
+    height: auto;
+    background-color: transparent;
+    margin: 120px auto;
+  }
+
+  .projetos {
+    position: relative;
+    float: left;
+    width: auto;
+    height: auto;
+    background-color: #C7C7C7;
+    padding: 0px;
+    padding-top: 5px;
+    margin: 10px 0px;
+  }
+
+  .proj-desc {
+    display: none;
+  }
+
+  .proj-foto {
+    position: relative;
+    float: left;
+    transform: translate(10px, 5px);
+    width: 330px;
+    height: 180px;
+  }
+
+  .proj-texto {
+    position: relative;
+    float: left;
+    margin: 6px 0px;
+    transform: translateX(10px);
+  }
+
+  #expandir {
+    display: none;
+  }
+
+  /* sobre.html */
+
+  .dev-box-sobre {
+    position: relative;
+    float: left;
+    width: 330px;
+    height: auto;
+    margin: 20px;
+  }
+
+  .box-bio {
+    position: relative;
+    width: 210px;
+    height: auto;
+    margin: 0px 109px;
+    text-align: justify;
+  }
+
+  /* contato.html */
+
+  .formulario {
+    position: relative;
+    width: 350px;
+    height: 365px;
+    background-color: #C7C7C7;
+    top: 15%;
+    margin: 0px auto;
+    border-radius: 5px;
+  }
+
+  button {
+    position: relative;
+    float: right;
+    margin: 40px -160px;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Courier Prime', monospace;
+  }
+
+  .lblContato {
+    position: relative;
+    margin: -2px 15px;
+    float: right;
+    font-weight: 700;
+  }
+
+  input {
+    position: relative;
+    width: 325px;
+    height: 25px;
+    margin: 0px 10px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  textarea {
+    position: relative;
+    width: 325px;
+    height: 100px;
+    margin: 0px 10px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  /* sobre.html / dev */
+
+  .perfil {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 10px -15px;
+    padding: 10px;
+    background-color: transparent;
+  }
+
+  .redes {
+    position: relative;
+    float: right;
+    width: 300px;
+    height: 30px;
+    margin: 0px -20px;
+    background-color: transparent;
+  }
+
+  .sobre {
+    position: relative;
+    float: left;
+    width: 38%;
+    height: auto;
+    background-color: #C7C7C7;
+    padding: 10px;
+  }
+
+  .sobre-desc-texto {
+    position: relative;
+    float: left;
+    margin: 0px 0px;
+  }
+
+  .sobre-texto {
+    position: relative;
+    float: left;
+    margin: 1px 0px;
+  }
+
+  .sobre-desc {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+    background-color: transparent;
+    overflow: hidden;
+  }
+
+  .sobre-box {
+    position: relative;
+    width: 830px;
+    height: auto;
+    background-color: transparent;
+    margin: 120px auto;
+    padding: 10px;
+    text-align: justify;
+  }
+
+  .projetoDestaque {
+    position: relative;
+    float: left;
+    margin: 0px 0px;
+  }
+
+  .proj-box-fav {
+    position: relative;
+    width: 350px;
+    height: auto;
+    background-color: transparent;
+    margin: 120px auto;
+  }
+
+  .projetos-fav {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-color: #C7C7C7;
+    padding: 5px;
+    margin: 0px -6px;
+  }
+}

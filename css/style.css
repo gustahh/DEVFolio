@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&display=swap');
+@import url('https://fonts.cdnfonts.com/css/deathe-maach-ncv');
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #D9D9D9;
+  overflow-x: hidden;
+}
+
+#id_pagina {
+  overflow-x: revert;
+}
+
+/* scroll */
+
+/* largura */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* barra */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* barra hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1a1a1a;
+}
+
+p .box_sobre {
+  margin: 0;
+}
+
+.bg {
+  position: relative;
+  float: right;
+  width: 100%;
+  height: 400px;
+  background-color: #FFC65A;
+}
+
+#bg_proj {
+  background-color: #ED4753;
+}
+
+#img_proj {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#bg_contato {
+  background-color: #1E65B0;
+}
+
+.menu-h {
+  position: relative;
+  background-color: transparent;
+  max-width: 800px;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  transition: background .4s;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.menu-ham {
+  display: none;
+}
+
+ul,
+li {
+  display: inline;
+}
+
+.ul-menu-lateral,
+.li-menu-lateral {
+  display: none;
+}
+
+li a {
+  margin: 10px;
+  text-decoration: none;
+  font-family: 'Courier Prime', monospace;
+  color: black;
+  font-weight: 100;
+}
+
+li #active {
+  font-weight: 700;
+}
+
+li a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+a {
+  margin: 0px;
+  text-decoration: none;
+  font-family: 'Courier Prime', monospace;
+  color: black;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: auto;
+  margin: -12px -100px;
+}
+
+#logo-ham {
+  display: none;
+}
+
+p {
+  font-family: 'Courier Prime', monospace;
+  color: black;
+}
+
+.box {
+  display: block;
+  position: relative;
+  float: left;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  margin: 65px 140px;
+}
+
+.box-mobile {
+  display: none;
+}
+
+.box_sobre {
+  position: relative;
+  float: left;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  margin: 0px 195px;
+}
+
+.box_proj {
+  position: relative;
+  float: left;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  margin: 0px 195px;
+}
+
+.box_contato {
+  position: relative;
+  float: left;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  margin: 0px 195px;
+}
+
+#texto_ini {
+  font-family: 'DEATHE MAACH NCV', sans-serif;
+  font-size: 50px;
+  margin: -10px 0px;
+}
+
+#arte_ini {
+  position: relative;
+  float: right;
+  margin: 39px -117px;
+  width: 800px;
+  height: 400px;
+}
+
+#arte_ini-mobile {
+  display: none;
+}
+
+#sobre {
+  color: black;
+  font-weight: 700;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  height: 100px;
+  margin-top: -200px;
+  background-color: #FFC65A;
+  text-align: center;
+}
+
+.footer-texto {
+  position: relative;
+  top: 40%;
+  margin: 0px 0px;
+}
+
+#close {
+  display: none;
+}
+
+#btn-topo {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  right: 0;
+  top: 90%;
+  border-radius: 30px;
+  background-color: #FFC65A;
+  border-color: black;
+  border-style: solid;
+  z-index: 2;
+  transform: scale(0);
+  transition: transform 0.5s;
+}
+
+#btn-topo:hover {
+  transform: scale(1.1);
+  border-color: black;
+  border-style: solid;
+  transition: transform 0.5s;
+}
+
+#luva {
+  position: relative;
+  margin: -3px -2px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(29deg);
+  -webkit-animation: animacao 1s infinite steps(12);
+}
+
+@keyframes animacao {
+  0% {
+    margin: -17px -2px;
+  }
+
+  50% {
+    margin: -9px -2px;
+  }
+
+  100% {
+    margin: -17px -2px;
+  }
+}
+
+/* projeto.html */
+.dev-box {
+  position: relative;
+  width: 920px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#dev-selec {
+  position: relative;
+}
+
+.dev {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #C7C7C7;
+}
+
+.foto {
+  position: relative;
+  float: left;
+  width: 68px;
+  height: 68px;
+  border-radius: 50px;
+  margin: 0px 20px;
+  transform: translateY(15px);
+  overflow: hidden;
+}
+
+.nome-dev {
+  position: relative;
+  transform: translateY(30px);
+}
+
+.proj-dev {
+  position: relative;
+  margin: 30px 0px;
+  font-weight: 700;
+}
+
+#dev1 {
+  background-color: #E60021;
+}
+
+#dev2 {
+  background-color: #6384B5;
+}
+
+#dev3 {
+  background-color: #E77300;
+}
+
+#devfoto {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#footer {
+  position: relative;
+  background-color: transparent;
+  transform: translateY(55px);
+}
+
+#footer-contato {
+  position: relative;
+  background-color: transparent;
+  transform: translateY(130px);
+}
+
+/* sobre.html */
+
+.dev-box-sobre {
+  position: relative;
+  width: 920px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.nome-dev-sobre {
+  position: relative;
+  transform: translateY(13px);
+  font-weight: 700;
+}
+
+.box-bio {
+  position: relative;
+  width: 775px;
+  height: auto;
+  margin: 0px 109px;
+  text-align: justify;
+}
+
+.sobre-dev {
+  position: relative;
+  margin: -10px 109px;
+  font-weight: 700;
+}
+
+/* contato.html */
+
+.formulario {
+  position: relative;
+  width: 700px;
+  height: 300px;
+  background-color: #C7C7C7;
+  top: 15%;
+  margin: 63px auto;
+  border-radius: 5px;
+}
+
+.lblNome {
+  position: relative;
+  margin: 0px 10px;
+  font-weight: 700;
+}
+
+.lblEmail {
+  position: relative;
+  margin: 0px 10px;
+  font-weight: 700;
+}
+
+.lblContato {
+  position: relative;
+  margin: -20px 110px;
+  float: right;
+  font-weight: 700;
+}
+
+.lblMsg {
+  position: relative;
+  margin: 0px 10px;
+  font-weight: 700;
+}
+
+#devfolio-logo {
+  position: relative;
+  float: right;
+  width: 300px;
+  height: 50px;
+}
+
+input {
+  position: relative;
+  width: 300px;
+  height: 25px;
+  margin: 0px 10px;
+  background-color: #D9D9D9;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  margin: 0px 10px;
+  background-color: #D9D9D9;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  position: relative;
+  float: right;
+  margin: -20px 12px;
+  width: auto;
+  height: auto;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Courier Prime', monospace;
+}
+
+button:hover {
+  transform: scale(1.5px);
+  border-color: white;
+}
+
+/* dev.html */
+
+.perfil {
+  position: relative;
+  float: left;
+  width: 300px;
+  height: auto;
+  margin: 10px 140px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.dev-nome {
+  position: relative;
+  margin: -15px 0px;
+}
+
+.proj-box {
+  position: relative;
+  width: 975px;
+  height: auto;
+  background-color: transparent;
+  margin: 120px auto;
+}
+
+.projetos {
+  position: relative;
+  width: 100%;
+  height: 130px;
+  background-color: #C7C7C7;
+  padding: 5px;
+}
+
+.projetos-fav {
+  position: relative;
+  width: 100%;
+  height: 130px;
+  background-color: #C7C7C7;
+  padding: 5px;
+}
+
+.proj-foto {
+  position: relative;
+  float: left;
+  transform: translate(10px, 5px);
+  width: 166px;
+  height: 117px;
+  overflow: hidden;
+}
+
+#foto1img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0px 0px;
+}
+
+#foto2img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0px 0px;
+}
+
+#foto3img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0px 0px;
+}
+
+#foto1 {
+  background-color: #6384B5;
+}
+
+#foto2 {
+  background-color: #E77300;
+}
+
+#foto3 {
+  background-color: #D6397B;
+}
+
+.proj-texto {
+  position: relative;
+  float: left;
+  margin: 1px 0px;
+  transform: translateX(15px);
+}
+
+.proj-texto:hover {
+  text-decoration: underline;
+}
+
+#expandir {
+  position: relative;
+  float: left;
+  font-size: 15px;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.proj-desc {
+  position: relative;
+  float: left;
+  width: 675px;
+  height: 101px;
+  margin: 0px 15px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.proj-desc-texto {
+  position: relative;
+  float: left;
+  margin: 0px 0px;
+}
+
+/* sobre.html */
+
+.sobre-box {
+  position: relative;
+  width: 980px;
+  height: auto;
+  background-color: transparent;
+  margin: 120px auto;
+  padding: 10px;
+  text-align: justify;
+}
+
+.sobre {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  background-color: #C7C7C7;
+  padding: 10px;
+}
+
+.sobre-desc-texto {
+  position: relative;
+  float: left;
+  margin: 0px 0px;
+}
+
+.sobre-texto {
+  position: relative;
+  float: left;
+  margin: 1px 0px;
+}
+
+.sobre-desc {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 0px 0px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.redes {
+  position: relative;
+  float: right;
+  width: 300px;
+  height: 30px;
+  margin: 54px 20px;
+  background-color: transparent;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin: 0px 10px;
+}
+
+.competencias {
+  position: relative;
+  float: left;
+  width: 175px;
+  height: 20px;
+  margin: -14px 98px;
+  background-color: transparent;
+}
+
+#favIcon {
+  position: relative;
+  float: left;
+  margin: 10px 10px;
+}
+
+.favTexto {
+  position: relative;
+  float: left;
+}
+
+.projetoDestaque {
+  position: relative;
+  float: left;
+  margin: 15px 158px;
+  ;
+}
+
+.proj-box-fav {
+  position: relative;
+  width: 975px;
+  height: auto;
+  background-color: transparent;
+  margin: 90px auto;
+}

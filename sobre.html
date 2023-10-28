@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Projetos/Devfolio</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/mobile.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body id="id_pagina">
+  <script src="script.js"></script>
+  <div class="menu_lateral">
+    <span class="material-symbols-outlined" id="close" onclick="fechar_menu()">close</span>
+    <ul class="ul-menu-lateral">
+      <li class="li-menu-lateral">
+        <a href="index.html">Início</a>
+      </li>
+      <br>
+      <li class="li-menu-lateral">
+        <a href="projetos.html">Projetos</a>
+      </li>
+      <br>
+      <li class="li-menu-lateral">
+        <a href="sobre.html" id="active">Sobre nós</a>
+      </li>
+      <br><br>
+      <li class="li-menu-lateral">
+        <a href="contato.html">Contato</a>
+      </li>
+    </ul>
+  </div>
+  <nav class="menu-h">
+    <h1><img src="img/devfolio.png" id="logo"></img></h1>
+    <ul>
+      <li>
+        <a href="index.html">Início</a>
+      </li>
+      <li>
+        <a href="projetos.html">Projetos</a>
+      </li>
+      <li>
+        <a href="sobre.html" id="active">Sobre nós</a>
+      </li>
+      <li>
+        <a href="contato.html">Contato</a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="menu-ham">
+    <span class="material-symbols-outlined" id="hamburguer" onclick="abrir_menu()">menu</span>
+    <h1><img src="img/devfolio.png" id="logo-ham"></img></h1>
+  </nav>
+  <div class="dev-box-sobre">
+    <p id="dev-selec">Selecione o dev</p>
+    <div class="dev">
+      <div class="foto" id="dev1"><img src="../img/devfoto2.jpg" id="devfoto"></div>
+      <p class="nome-dev-sobre">Gustavo Graciano</p>
+      <div class="box-bio">
+        <p class="bio-dev">Meu nome é Gustavo Graciano, conheci o mundo da programação em 2018 quando entrei
+          para o curso de informática na Escola Técnica do Rio de Janeiro (ETERJ). Lá pude ter meus primeiros contatos
+          com a programação com a linguagem Portugol...</p>
+      </div>
+      <a href="sobre/gustavo.html">
+        <p class="sobre-dev">Ver mais></p>
+      </a>
+
+    </div>
+    <div class="dev">
+      <div class="foto" id="dev2"><img src="../img/devfoto3.jpg" id="devfoto"></div>
+      <p class="nome-dev-sobre">Henrique Alves</p>
+      <div class="box-bio">
+        <p class="bio-dev">Meu nome é Henrique Alves da Silva, na adolescência comecei a me interessar por
+          computadores e queria saber mais sobre os trabalhos que poderiam ser feitos com eles. Por causa disso decidi
+          ser analista de sistemas...</p>
+      </div>
+      <a href="sobre/henrique.html">
+        <p class="sobre-dev">Ver mais></p>
+      </a>
+    </div>
+    <div class="dev">
+      <div class="foto" id="dev3"><img src="../img/devfoto1.jpg" id="devfoto"></div>
+      <p class="nome-dev-sobre">Pablo Vitor</p>
+      <div class="box-bio">
+        <p class="bio-dev">Meu nome é Pablo Araújo, conheci a programação em 2020 pelo cenário web, mas a
+          paixão pela computação vem de berço, entrei pra faculdade pra ter um leque maior de opções e variáveis pra
+          seguir no futuro, estou no terceiro semestre aprendendo a base das linguagens de Front-end...</p>
+      </div>
+      <a href="sobre/pablo.html">
+        <p class="sobre-dev">Ver mais></p>
+      </a>
+    </div>
+  </div>
+  <button id="btn-topo" onclick="topFunction()">
+    <img src="img/luva.png" id="luva">
+  </button>
+</body>
+<br>
+
+<footer id="footer">
+  <p class="footer-texto"> © 2023 - DevFolio | All Rights Reserved </p>
+</footer>
+
+</html>
